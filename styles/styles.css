@@ -55,7 +55,7 @@
     padding: 10px 12px;
     border-radius: 4px;
     color: white;
-    background-color: #30B868; rgba(70, 145, 101, 1);
+    background-color: #30B868;
     font-size: 16px;
     line-height: 19px;
     text-align: left;
@@ -113,5 +113,5 @@
 .note-card .card h3{
     font-size: 24px;
     font-weight: bold;
-    
+
 }
