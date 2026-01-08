@@ -1,0 +1,117 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.body{
+    max-width: 1600px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.header{
+    background-color: #FFFFFF;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 16px 120px;
+    max-width: 1600px;
+    border: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    list-style-type: none;
+
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.btn{
+    max-width: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: #30B868; rgba(70, 145, 101, 1);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Note-box{
+
+    max-width: 1600px;
+    padding-left: 0px 120px 120px 120px;
+}
+
+.note h2{
+    max-width: 1360px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.note p{
+    max-width: 1360px;
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.note-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 120px 120px 120px;
+}
+
+.card{
+    max-width: 322px;
+    border-radius: 8px;
+    padding: 24px;
+    /* color: #FFFFFF; */
+    box-shadow: #0000002c 0px 0px 8px 0px;
+    gap: 16px;
+}
+
+.note-card .card h3{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
