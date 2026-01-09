@@ -90,12 +90,20 @@
     text-align: left;
 }
 
+/* background-iamge */
 .heading-section{
+
+    background-image:url("../Images/hero-bg.png");
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin: 0px auto;
+    padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .heading-section .button{
     
@@ -129,7 +137,7 @@
     max-width: 770px;
     margin: 16px auto;
     opacity: 0.9;
-    color: rgba(249, 85, 85, 1);
+    color: rgb(252, 252, 252);
     line-height: 84px;
     text-align: center;
     font-style: Bold;
@@ -151,12 +159,12 @@
 .heading-section p{
     max-width: 1360px;
     margin: 16px 295px;
-    color: rgb(67, 145, 48);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,11 +296,14 @@ text-align: center;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 40;
-    margin: 102px auto ;
+    gap: 16;
+    margin: 0px auto ;
+
+    
 }
 
 .container .h2{
+    margin: 16px auto;
     max-width: 700px;
     color:#001931;
     font-style: Bold;
@@ -305,28 +316,37 @@ text-align: center;
 }
 
 .container p{
-    margin: 16px auto;
+    margin: 0px auto;
     width: 700px;
     color: #627382;
-    font-size: 16px;
+    font-size: 16px;s
     font-weight: 400;
     line-height: 20px;
     text-align: left;
+    
+
 }
-
-.ul-list{
+.brain-structured{
+    
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 16;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+margin-top: 20px;
 
-    color:rgba(0, 25, 49, 1);
-    font-style: Medium;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
+}
+.brain-structured .circle{
+    display: flex;
+    flex-direction: row;
+    color: rgba(0, 25, 49, 1);
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+
+
 }
 
 #Ready-section{
@@ -384,13 +404,14 @@ text-align: center;
     margin-top: 24px;
 }
 .img-logo .logo-footer{
-    color: rgba(255, 255, 255, 1);
+    
     width: 139px;
+
 }
 
 .Social{
     color: rgba(255, 255, 255, 1);
-    width: 113px;
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,13 +420,16 @@ text-align: center;
 }
 
 .social-logo{
-    
-    width: 36px;
+    width: 113px;
     display: flex;
-    justify-content: center;
+    color: #f38c39;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    justify-content: space-between;
     align-items: center;
-    gap: 12px;margin-top: 16px;
-    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-style: none;
 }
 .copyright{
     color: rgba(255, 255, 255, 1);
