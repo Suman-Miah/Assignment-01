@@ -399,11 +399,13 @@ text-align: center;
 }
 
 .social-logo{
-    color: rgba(255, 255, 255, 1);
-    width: 20px;
+    
+    width: 36px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 12px;margin-top: 16px;
+    color: white;
 }
 .copyright{
     color: rgba(255, 255, 255, 1);
